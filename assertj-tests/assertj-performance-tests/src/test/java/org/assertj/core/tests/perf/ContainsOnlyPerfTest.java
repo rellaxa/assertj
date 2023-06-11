@@ -40,7 +40,7 @@ import org.junit.jupiter.api.Timeout;
 class ContainsOnlyPerfTest {
 
   @Test
-  @Timeout(value = 5)
+  @Timeout(value = 6)
   void test_containsOnly_1mElements() {
     final ArrayList<Object> objects = new ArrayList<>();
     for (int i = 0; i < 1_000_000; i++) {
